@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkTree - Denmas</title>
+
+    <!-- JS -->
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="shortcut icon" href="hero.png" type="image/x-icon" sizes="10px">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <div class="mode">
+        <div class="darkmode">
+            <div class="icons">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="hero">
+            <img src="hero.png">
+            <h2>Welcome To Link Tree</h2>
+            <h1>Denmas <span id="txt"></span></h1>
+        </div>
+
+        <div class="menu">
+            <a href="https://www.instagram.com/denmass_xx/"><i class="icon" data-feather="instagram"></i>Instagram</a>
+            <a href="#"><i class="icon" data-feather="twitter"></i>Twitter</a>
+            <a href="https://www.youtube.com/@dennsamp4301"><i class="icon" data-feather="youtube"></i>Youtube</a>
+            <a href="https://id-id.facebook.com/"><i class="icon" data-feather="facebook"></i>Facebook</a>
+            <a href="https://discord.gg/haahkWWuYY"><i class="icon bi bi-discord"></i>Discord</a>
+            <a href="wa.me/+6285780355323"><i class="icon bi bi-whatsapp"></i>Whatsapp</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class=footer-content>
+            <h1 class="title">Denmas Molano</h1>
+            <p class="desc">Copyright &copy; 2023, All Right Reserved <a href="#">Denmas</a></p>
+        </div>
+    </footer>
+
+    <script>
+        feather.replace()
+    </script>
+
+    <script>
+        var typed = new Typed('#txt', {
+            strings: [" Molano", "Software Enginer", "Frontend", "Freelancer"], typeSpeed: 100, startDelay: 1500,
+            loop: true
+        }); </script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
